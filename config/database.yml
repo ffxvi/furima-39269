@@ -57,4 +57,4 @@ production:
   <<: *default
   database: furima_39269_production
   adapter: postgresql
-  url: <%= ENV['DATABASE_URL'] %>
+  url: postgres://furimaapp_production_dvmx_user:ry3HceNeyEBvBDP7EWDEEFhDB6hesaAX@dpg-ckb6momsmu8c73ba54qg-a/furimaapp_production_dvmx
